@@ -4,7 +4,7 @@ var app = express();
 app.get('/', function(req, res){
   var message = process.env.HELLO;
   if (typeof(message) == "undefined") {
-  	message = "again Arati!! "
+  	message = "after git push!! "
   }
   res.send('Hello ' + message);
 });
